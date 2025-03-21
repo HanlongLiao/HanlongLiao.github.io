@@ -1,0 +1,28 @@
+/* 自定义样式 */
+.site-footer {
+  padding: 20px 0;
+  border-top: 1px solid #e8e8e8;
+}
+
+.footer-col-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -15px;
+}
+
+.footer-col {
+  padding-left: 15px;
+  margin-bottom: 15px;
+  flex: 1;
+}
+
+.contact-list,
+.social-media-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.social-links {
+  margin-top: 15px;
+} 

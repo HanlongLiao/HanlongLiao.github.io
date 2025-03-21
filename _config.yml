@@ -14,8 +14,7 @@ plugins:
 # Author
 author:
   name: Hans
-  # Comment out email to prevent it from showing in footer
-  # email: hans.liaoh@gmail.com
+  email: hans.liaoh@gmail.com
 
 # Social Media Links
 social_links:
