@@ -34,29 +34,24 @@ body {
   color: #828282;
 }
 
-/* 首页文章链接样式 */
-.post-link {
-  display: block;
+/* 首页文章链接样式，使用极高优先级选择器 */
+.home .post-list h3 a.post-link,
+.home .post-list h3 a.small-link,
+a.post-link,
+a.small-link {
+  display: block !important;
   font-size: 16px !important;
   color: #828282 !important;
-  text-decoration: none;
+  text-decoration: none !important;
+  font-weight: normal !important;
 }
 
-.post-link:hover {
+.home .post-list h3 a.post-link:hover,
+.home .post-list h3 a.small-link:hover,
+a.post-link:hover,
+a.small-link:hover {
   color: #565656 !important;
-  text-decoration: none;
-}
-
-/* 覆盖small-link样式，确保一致 */
-.small-link {
-  font-size: 16px !important;
-  color: #828282 !important;
-  text-decoration: none;
-}
-
-.small-link:hover {
-  color: #565656 !important;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 /* 文章页面分类样式 */
