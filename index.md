@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Home
+title: Index Page
 ---
 
-This is my personal blog, for sharing technical, life and other interesting content.
+For technical sharing, life and other interesting ideas.

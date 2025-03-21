@@ -39,6 +39,32 @@ body {
   font-size: 20px;
 }
 
+/* 首页文章链接样式 */
+.small-link {
+  font-size: 18px;
+  color: #828282;
+}
+
+.small-link:hover {
+  color: #565656;
+  text-decoration: none;
+}
+
+/* 文章页面分类样式 */
+.post-categories {
+  font-size: 14px;
+  color: #828282;
+}
+
+.post-category {
+  color: #828282;
+  text-decoration: underline;
+}
+
+.post-category:hover {
+  color: #565656;
+}
+
 .post-content {
   margin-bottom: 30px;
 }
