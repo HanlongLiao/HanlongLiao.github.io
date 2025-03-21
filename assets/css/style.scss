@@ -1,6 +1,6 @@
 @import "{{ site.theme }}";
 
-// 自定义CSS
+// 修复自定义样式
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.6;
@@ -31,27 +31,23 @@ body {
   color: #828282;
 }
 
-/* 首页文章链接样式，使用极高优先级选择器 */
-.home .post-list h3 a.post-link,
-.home .post-list h3 a.small-link,
-a.post-link,
-a.small-link {
-  display: block !important;
-  font-size: 18px !important;
-  color: #000000 !important;
-  text-decoration: none !important;
-  font-weight: normal !important;
+// 文章链接样式
+.post-link,
+.small-link {
+  display: block;
+  font-size: 18px;
+  color: #000000;
+  text-decoration: none;
+  font-weight: normal;
 }
 
-.home .post-list h3 a.post-link:hover,
-.home .post-list h3 a.small-link:hover,
-a.post-link:hover,
-a.small-link:hover {
-  color: #565656 !important;
-  text-decoration: none !important;
+.post-link:hover,
+.small-link:hover {
+  color: #565656;
+  text-decoration: none;
 }
 
-/* 文章页面分类样式 */
+// 文章页面分类样式
 .post-categories {
   font-size: 14px;
   color: #828282;
@@ -74,7 +70,7 @@ a.small-link:hover {
   flex: 1;
 }
 
-/* 简洁页脚样式 */
+// 简洁页脚样式
 .site-footer {
   padding: 15px 0;
   border-top: 1px solid #e8e8e8;
