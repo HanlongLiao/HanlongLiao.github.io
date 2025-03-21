@@ -1,3 +1,36 @@
-title: 我的个人博客
-description: 这是我基于GitHub Pages创建的个人博客
+title: Hans' Blog
+email: hans.liaoh@gmail.com
+description: >- 
+  This is my personal blog, for sharing technical, life and other interesting content.
+baseurl: ""
+url: "https://hanlongliao.github.io"
+
+# Theme
 theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Author
+author:
+  name: Hans
+  email: yhans.liaoh@gmail.com
+
+# Social Media Links
+social_links:
+  github: HanlongLiao
+  # twitter: yourusername
+  # linkedin: yourusername
+
+# Header Pages
+header_pages:
+  - about.md
+  - archive.md
+  - categories.md
+
+# Pagination
+paginate: 5
+paginate_path: "/page:num/"
+
+# Markdown Processor
+markdown: kramdown

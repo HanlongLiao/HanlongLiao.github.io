@@ -1,8 +1,9 @@
 ---
 layout: home
-title: 我的博客
+title: Home
+list_title: Latest Posts
 ---
 
-# 欢迎来到我的博客
+This is my personal blog, for sharing technical, life and other interesting content.
 
-这是我的第一篇文章。
+## Latest Posts
