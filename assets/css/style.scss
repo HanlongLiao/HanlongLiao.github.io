@@ -51,7 +51,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 15px;
+  font-size: 16px;
   color: #828282;
 }
 
@@ -65,18 +65,16 @@ body {
   color: #828282;
 }
 
-.footer-icons {
+.footer-icon {
+  margin-left: 10px;
+  color: #828282;
   display: flex;
   align-items: center;
 }
 
-.footer-icon {
-  margin-left: 10px;
-  color: #828282;
-}
-
 .icon {
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
   fill: currentColor;
+  vertical-align: middle;
 }
