@@ -34,19 +34,28 @@ body {
   color: #828282;
 }
 
+/* 首页文章链接样式 */
 .post-link {
   display: block;
-  font-size: 20px;
+  font-size: 16px !important;
+  color: #828282 !important;
+  text-decoration: none;
 }
 
-/* 首页文章链接样式 */
+.post-link:hover {
+  color: #565656 !important;
+  text-decoration: none;
+}
+
+/* 覆盖small-link样式，确保一致 */
 .small-link {
-  font-size: 18px;
-  color: #828282;
+  font-size: 16px !important;
+  color: #828282 !important;
+  text-decoration: none;
 }
 
 .small-link:hover {
-  color: #565656;
+  color: #565656 !important;
   text-decoration: none;
 }
 
