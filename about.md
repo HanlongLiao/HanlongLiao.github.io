@@ -4,4 +4,4 @@ title: About Me
 permalink: /about/
 ---
 
-He is too lazy to write anything here.
+He is too lazy to write anything.
