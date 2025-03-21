@@ -40,41 +40,41 @@ body {
   margin-bottom: 30px;
 }
 
-/* 新的简洁页脚样式 */
+/* 简洁页脚样式 */
 .site-footer {
-  padding: 20px 0;
+  padding: 15px 0;
   border-top: 1px solid #e8e8e8;
   margin-top: 30px;
 }
 
 .simple-footer {
   display: flex;
-  align-items: center;
   justify-content: center;
-  font-size: 16px;
   color: #828282;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
 }
 
 .footer-blog-title {
   font-style: italic;
-  margin-right: 15px;
 }
 
-.footer-separator {
-  margin: 0 15px;
-  color: #828282;
+.separator {
+  margin: 0 10px;
 }
 
-.footer-icon {
-  margin-left: 10px;
-  color: #828282;
-  display: flex;
+.icon-link {
+  margin-left: 8px;
+  line-height: 1;
+  display: inline-flex;
   align-items: center;
 }
 
-.icon {
-  width: 16px;
-  height: 16px;
-  fill: currentColor;
+svg {
+  display: inline-block;
   vertical-align: middle;
 }
