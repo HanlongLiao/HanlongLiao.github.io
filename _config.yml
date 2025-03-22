@@ -1,45 +1,41 @@
-title: Logic House
-email: hans.liaoh@gmail.com
-description: >- 
-  For technical sharing, life and other interesting content.
-baseurl: ""
-url: "https://hanlongliao.github.io"
+# Site settings
+title:          Tale
+description:    "Minimal Jekyll theme for storytellers"
+baseurl:        "/tale"
+url:            "https://chesterhow.github.io"
 
-# Theme
-theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+# Google Analytics
+google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name: Hans
-  email: hans.liaoh@gmail.com
+  name:         Chester How
+  url:          https://chester.how
+  email:        chesterhow@gmail.com
 
-# Social Media Links
-social_links:
-  github: HanlongLiao
-  # twitter: yourusername
-  # linkedin: yourusername
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
 
-# Header Pages
-header_pages:
-  - about.md
-  - archive.md
-  - categories.md
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
 
-# Pagination
-paginate: 5
-paginate_path: "/page:num/"
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  # - jemoji #Uncomment this to allow emoji in your post
 
-# Markdown Processor
-markdown: kramdown
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
 
-# Defaults
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
+# Excludes
+exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
+
+# Disqus (Set to your disqus id)
+disqus:         jekyll-tale
